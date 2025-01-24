@@ -2,24 +2,7 @@
 
 This project is a Point of Sale (POS) Interface designed for managing services in a user-friendly manner. Built with React, the interface allows users to view available services, add them to a cart, provide customer details, and proceed with payment.
 **
-**Project Structure**
 
-pos-interface/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── ServiceList.js
-│   │   ├── CartAndCheckout.js
-│   ├── styles/
-│   │   ├── Navbar.css
-│   │   ├── ServiceList.css
-│   │   ├── CartAndCheckout.css
-│   ├── App.js
-│   ├── index.js
-│   ├── index.css
-├── package.json
-**
 **Features****
 
 **Navbar:**
