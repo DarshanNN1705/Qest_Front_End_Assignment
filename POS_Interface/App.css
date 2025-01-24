@@ -1,0 +1,50 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1; /* Allow this section to grow and fill remaining space */
+}
+
+.service-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-checkout-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    flex-direction: row; /* Switch to row layout for larger screens */
+    justify-content: space-between;
+  }
+
+  .service-section {
+    width: 45%; /* Make it responsive */
+  }
+
+  .cart-checkout-section {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-section, .cart-checkout-section {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
