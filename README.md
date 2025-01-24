@@ -1,15 +1,15 @@
 **POS Interface for Selling Services**
 
 This project is a Point of Sale (POS) Interface designed for managing services in a user-friendly manner. Built with React, the interface allows users to view available services, add them to a cart, provide customer details, and proceed with payment.
-**
 
-**Features****
+
+**Features**
 
 **Navbar:**
 
   Provides navigation and branding for the POS interface.
-**
-**Service List:****
+
+**Service List:**
 
   Displays the list of available services with options to add them to the cart.
 
